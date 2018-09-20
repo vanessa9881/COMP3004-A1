@@ -14,5 +14,15 @@ public class CardDeck {
 		 return cdeck.length;
 	}
 	
+	public boolean HasShuffled() {
+		for (int i = 0; i < cdeck.length; i++) {
+		      int index = (int)(Math.random() * cdeck.length);
+		      int temp = cdeck[i];
+		      cdeck[i] = cdeck[index];
+		      cdeck[index] = temp;
+		    }
+		return true;
+		
 }
 
+}
