@@ -4,12 +4,11 @@ import junit.framework.TestCase;
 
 public class CardDeckTest extends TestCase {
 	
-	public void FileInput() {
-		FileConsole indicator = new FileConsole 
+	public void Deck() {
+		CardDeck tester = new CardDeck
 		
-		
-		
-				
+		assertEquals(52, tester.total);
+							
 		
 	}
 
