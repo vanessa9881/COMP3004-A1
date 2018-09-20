@@ -7,6 +7,6 @@ public class JQKas10Test extends TestCase {
 	public void testJQKas10Test () {
 		CardDeck tester = new CardDeck ();
 		
-assertEquals('10', ConvertToTen);	}
+assertEquals("10", tester.ConvertToTen("J"));	}
 
 }

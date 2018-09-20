@@ -24,5 +24,13 @@ public class CardDeck {
 		return true;
 		
 }
+	public String ConvertToTen(String a) {
+		if(a=="J" || a=="Q" || a=="K") {
+		String word = "10";
+		}
+		String word = "10";
+		return word;
+		
+	}
 
 }
